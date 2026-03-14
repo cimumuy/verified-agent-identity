@@ -29,7 +29,7 @@ jobs:
 
       - name: Create Ethereum Identity
         run: node scripts/createNewEthereumIdentity.js
-        
-- name: Link Human to Agent
-  run: |
-    node scripts/manualLinkHumanToAgent.js --challenge "{\"name\":\"cimumuy\",\"description\":\"cimumuy AI Agent\"}"
+
+      - name: Link Human to Agent
+        run: |
+          node scripts/manualLinkHumanToAgent.js --challenge "{\"name\":\"cimumuy\",\"description\":\"cimumuy AI Agent\"}"
